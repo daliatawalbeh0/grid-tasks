@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>
+            Grid 2
+        </title>
+        <style>
+            .grid-container{
+                display: grid;
+                width: 96vw;
+                height: 90vh;
+                background-color: white;
+                gap: 10px;
+            }
+            
+            .d1{
+                background-color: black;
+                grid-row: 1;
+                grid-column: 1 / span 3;
+                height: 90px;
+            }
+            .d2{
+                background-color: orange;
+                grid-row: 2;
+                grid-column: 1 / span 2;
+                height: 450px;
+            }
+            .d3{
+                background-color: green;
+                grid-row: 2;
+                grid-column:3;
+                height: 450px;
+            }
+          .d4{
+            background-color: rgb(62, 62, 255);
+            grid-row: 3;
+            grid-column: 1 / span 3;
+            height: 140px;
+            
+            
+          }
+        </style>
+    </head>
+    <body>
+        <div class="grid-container">
+            <div class=" d1"></div>
+            <div class=" d2"></div>
+            <div class=" d3"></div>
+            <div class=" d4"></div>
+        </div>
+    </body>
+</html>
